@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { Canvas } from 'react-three-fiber';
 import { a, useSpring } from 'react-spring/three';
 
-import './styles.scss';
+import './styles.css';
 
 function vecs(vertices) {
   return vertices.map(v => new THREE.Vector3(...v));
